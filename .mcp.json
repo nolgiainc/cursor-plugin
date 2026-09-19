@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "nolgia": {
+      "url": "https://mcp.nolgia.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:NOLGIA_TOKEN}"
+      }
+    }
+  }
+}

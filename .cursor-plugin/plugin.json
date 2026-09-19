@@ -1,0 +1,26 @@
+{
+  "$schema": "https://cursor.com/schemas/cursor-plugin/plugin.json",
+  "name": "nolgia",
+  "displayName": "NOLGIA",
+  "version": "0.1.0",
+  "description": "Generate images, video, and audio on NOLGIA from Cursor: a /nolgia command over the hosted NOLGIA MCP server.",
+  "author": {
+    "name": "NOLGIA",
+    "url": "https://nolgia.ai"
+  },
+  "homepage": "https://nolgia.ai",
+  "repository": "https://github.com/nolgiainc/cursor-plugin",
+  "license": "MIT",
+  "category": "ai-content",
+  "logo": "./assets/logo.png",
+  "keywords": [
+    "nolgia",
+    "mcp",
+    "image-generation",
+    "video-generation",
+    "audio-generation",
+    "text-to-speech"
+  ],
+  "commands": "./commands/",
+  "mcpServers": "./.mcp.json"
+}
